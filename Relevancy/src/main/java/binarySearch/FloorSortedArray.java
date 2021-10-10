@@ -6,7 +6,7 @@ public class FloorSortedArray {
         int arr[] = { 1, 2, 4, 6, 10, 12, 14 };
         int n = arr.length;
         int x = 7;
-        int index = floorSearch(arr, n - 1, x);
+        int index = floorSearch(arr, 0,n - 1, x);
         if (index == -1)
             System.out.print(
                     "Floor of " + x
@@ -17,6 +17,22 @@ public class FloorSortedArray {
                             + arr[index]);
     }
 
-    private static int floorSearch(int[] arr, int i, int x) {
+    private static int floorSearch(int[] arr1, int low, int high, int key) {
+        int res=-1;
+        while(low<=high){
+            int mid = (low+high)/2;
+
+            if(arr1[mid] == key){
+                return mid;
+            }else if(arr1[mid] > key){
+                high= mid-1;
+            }else if(arr1[mid] < key){
+                res =mid;
+                low = mid+1;
+            }
+        }
+        return res;
     }
+
+
 }
