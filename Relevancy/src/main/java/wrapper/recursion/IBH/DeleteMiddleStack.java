@@ -1,4 +1,4 @@
-package wrapper.recursion;
+package wrapper.recursion.IBH;
 
 import java.util.Stack;
 import java.util.stream.Collectors;

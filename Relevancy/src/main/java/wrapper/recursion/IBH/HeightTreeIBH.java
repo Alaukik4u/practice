@@ -1,4 +1,6 @@
-package wrapper.recursion;
+package wrapper.recursion.IBH;
+
+import wrapper.recursion.Node;
 
 public class HeightTreeIBH {
     static Node root;

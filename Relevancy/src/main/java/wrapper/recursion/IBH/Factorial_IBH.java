@@ -1,4 +1,4 @@
-package wrapper.recursion;
+package wrapper.recursion.IBH;
 
 public class Factorial_IBH {
     public static void main(String[] args) {
