@@ -4,8 +4,8 @@ import lombok.Data;
 
 @Data
 public class Node {
-    Node left;
-    Node right;
+    public Node left;
+    public Node right;
     int val;
 
     public Node( int val) {
