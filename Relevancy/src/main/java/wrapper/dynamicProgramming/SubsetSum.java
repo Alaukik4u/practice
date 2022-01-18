@@ -2,8 +2,11 @@ package wrapper.dynamicProgramming;
 
 public class SubsetSum {
     public static void main(String[] args) {
-        int a[] = { 3, 34, 4, 12, 5, 2 };
-        int sum = 9;
+        /*int a[] = { 3, 34, 4, 12, 5, 2 };
+        int sum = 9;*/
+
+        int a[] = {5, 1, 11, 5};
+        int sum =11;
         int n = a.length;
 
 
