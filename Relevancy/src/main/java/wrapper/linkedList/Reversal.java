@@ -17,24 +17,24 @@ public class Reversal {
     }
 
     private static Node  reverseList(Node root) {
-        Node prev=null, next=null , curr = root;
+      Node  prev =null, curr = root, next =null;
 
-        while(curr != null ){
+      while(curr != null){
 
-            next = curr.nextNode;
-            curr.nextNode = prev;
-            prev = curr;
-            curr = next;
-        }
+          next = curr.nextNode;
+          curr.nextNode = prev;
+          prev = curr;
+          curr = next;
 
-        root = prev;
-        return root;
+      }
+
+      return prev;
     }
 
 
 
 
-    private static void printList(Node node) {
+    public static void printList(Node node) {
         while(node !=null){
 
             System.out.print(node.data+" ");
@@ -46,11 +46,3 @@ public class Reversal {
 
 
 
-class Node{
-    int data;
-    Node nextNode;
-
-    public Node(int data){
-        this.data = data;
-    }
-}
