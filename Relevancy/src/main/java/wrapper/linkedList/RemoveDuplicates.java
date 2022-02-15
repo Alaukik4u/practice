@@ -3,32 +3,32 @@ package wrapper.linkedList;
 import static wrapper.linkedList.Reversal.printList;
 
 public class RemoveDuplicates {
-    static Node root;
+    static LinkedList head;
     public static void main(String[] args) {
-        root = new Node(1);
-        root.nextNode = new Node(2);
-        root.nextNode.nextNode = new Node(2);
-        root.nextNode.nextNode.nextNode = new Node(3);
+        head = new LinkedList(1);
+        head.next = new LinkedList(2);
+        head.next.next = new LinkedList(2);
+        head.next.next.next = new LinkedList(3);
 
-        printList(root);
+        printList(head);
 
-        removeDuplicates(root);
+        removeDuplicates(head);
 
-        printList(root);
+        printList(head);
     }
 
-    private static void removeDuplicates(Node root) {
-        Node current = root;
+    private static void removeDuplicates(LinkedList head) {
+        LinkedList current = head;
 
-        if(root == null || root.nextNode == null){
+        if(head == null || head.next == null){
             return;
         }
 
-        while(current != null && current.nextNode != null){
-            if(current.data == current.nextNode.data){
-                current.nextNode = current.nextNode.nextNode;
+        while(current != null && current.next != null){
+            if(current.value == current.next.value){
+                current.next = current.next.next;
             }else{
-                current = current.nextNode;
+                current = current.next;
             }
         }
     }

@@ -3,64 +3,64 @@ package wrapper.linkedList;
 import static wrapper.linkedList.Reversal.printList;
 
 public class RightShiftByK {
-    static Node root;
+    static LinkedList head;
     public static void main(String[] args) {
-        root = new Node(1);
-        root.nextNode = new Node(2);
-        root.nextNode.nextNode = new Node(3);
-        root.nextNode.nextNode.nextNode = new Node(4);
-        root.nextNode.nextNode.nextNode.nextNode = new Node(5);
-        root.nextNode.nextNode.nextNode.nextNode.nextNode = new Node(6);
+        head = new LinkedList(1);
+        head.next = new LinkedList(2);
+        head.next.next = new LinkedList(3);
+        head.next.next.next = new LinkedList(4);
+        head.next.next.next.next = new LinkedList(5);
+        head.next.next.next.next.next = new LinkedList(6);
 
-        printList(root);
-        Node node = rightShiftByK(root, -2);
+        printList(head);
+        LinkedList node = rightShiftByK(head, -2);
         printList(node);
 
     }
 
-    private static Node rightShiftByK(Node root, int k) {
+    private static LinkedList rightShiftByK(LinkedList head, int k) {
         //1-2-3-4-5-6
         //case when negative , positive and equal to length
 
-        Node current = root;
+        LinkedList current = head;
 
-        int length = calculateLength(root);
+        int length = calculateLength(head);
 
         if(k>0){
             k = k-length;
         }
 
         if(k==length){
-            return root;
+            return head;
         }
 
-        current = root;
+        current = head;
         k++;
 
         while(k<0){
-            current = current.nextNode;
+            current = current.next;
             k++;
         }
 
-        Node newHead = current.nextNode;
-        current.nextNode = null;
+        LinkedList newHead = current.next;
+        current.next = null;
 
         current = newHead;
 
-        while(current.nextNode !=null){
-            current = current.nextNode;
+        while(current.next !=null){
+            current = current.next;
         }
 
-        current.nextNode = root;
+        current.next = head;
 
         return newHead;
     }
 
-    private static int calculateLength(Node root) {
+    private static int calculateLength(LinkedList head) {
         int length=0;
-        while(root != null){
+        while(head != null){
             length++;
-            root = root.nextNode;
+            head = head.next;
         }
 
         return length;

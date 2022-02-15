@@ -3,46 +3,46 @@ package wrapper.linkedList;
 import static wrapper.linkedList.Reversal.printList;
 
 public class RemoveKthFromEnd {
-    static Node root;
+    static LinkedList head;
     public static void main(String[] args) {
-        root = new Node(1);
-        root.nextNode = new Node(2);
-        root.nextNode.nextNode = new Node(2);
-        root.nextNode.nextNode.nextNode = new Node(3);
+        head = new LinkedList(1);
+        head.next = new LinkedList(2);
+        head.next.next = new LinkedList(2);
+        head.next.next.next = new LinkedList(3);
 
-        printList(root);
-        removeKthFromEnd(root,1);
-        printList(root);
+        printList(head);
+        removeKthFromEnd(head,1);
+        printList(head);
     }
 
-    private static void removeKthFromEnd(Node root, int k) {
-        Node current = root, pre=null;
+    private static void removeKthFromEnd(LinkedList head, int k) {
+        LinkedList current = head, pre=null;
 
 
 
-        if(root == null){
+        if(head == null){
             return;
         }
 
         for(int i=0; i<k; i++){
-            current = current.nextNode;
+            current = current.next;
         }
 
         while(current != null){
             if(pre == null){
-                pre = root;
+                pre = head;
             }else{
-               pre = pre.nextNode;
+               pre = pre.next;
             }
-            current = current.nextNode;
+            current = current.next;
         }
 
         if(pre == null){
-            root.data = root.nextNode.data;
-            pre = root;
+            head.value = head.next.value;
+            pre = head;
         }
 
         //TODO here we are deleting the kth element by copying k-1th element to kth element and deleting k-1th element to kth element
-        pre.nextNode = pre.nextNode.nextNode;
+        pre.next = pre.next.next;
     }
 }

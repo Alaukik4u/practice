@@ -1,28 +1,28 @@
 package wrapper.linkedList;
 
 public class Reversal {
-    static Node root;
+    static LinkedList head;
 
 
     public static void main(String[] args) {
-        root = new Node(1);
-        root.nextNode = new Node(2);
-        root.nextNode.nextNode = new Node(3);
-        root.nextNode.nextNode.nextNode = new Node(4);
+        head = new LinkedList(1);
+        head.next = new LinkedList(2);
+        head.next.next = new LinkedList(3);
+        head.next.next.next = new LinkedList(4);
 
-        printList(root);
-        Node node = reverseList(root);
+        printList(head);
+        LinkedList node = reverseList(head);
         printList(node);
 
     }
 
-    private static Node  reverseList(Node root) {
-      Node  prev =null, curr = root, next =null;
+    private static LinkedList reverseList(LinkedList head) {
+      LinkedList prev =null, curr = head, next =null;
 
       while(curr != null){
 
-          next = curr.nextNode;
-          curr.nextNode = prev;
+          next = curr.next;
+          curr.next = prev;
           prev = curr;
           curr = next;
 
@@ -34,11 +34,11 @@ public class Reversal {
 
 
 
-    public static void printList(Node node) {
+    public static void printList(LinkedList node) {
         while(node !=null){
 
-            System.out.print(node.data+" ");
-            node=node.nextNode;
+            System.out.print(node.value+" ");
+            node=node.next;
         }
         System.out.println();
     }

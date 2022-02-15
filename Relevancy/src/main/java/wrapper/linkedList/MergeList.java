@@ -3,26 +3,26 @@ package wrapper.linkedList;
 import static wrapper.linkedList.Reversal.printList;
 
 public class MergeList {
-    static Node list1, list2;
+    static LinkedList list1, list2;
     public static void main(String[] args) {
-        list1 = new Node(1);
-        list1.nextNode = new Node(3);
-        list1.nextNode.nextNode = new Node(5);
+        list1 = new LinkedList(1);
+        list1.next = new LinkedList(3);
+        list1.next.next = new LinkedList(5);
 
-        list2 = new Node(2);
-        list2.nextNode = new Node(4);
-        list2.nextNode.nextNode = new Node(6);
+        list2 = new LinkedList(2);
+        list2.next = new LinkedList(4);
+        list2.next.next = new LinkedList(6);
 
         printList(list1);
         printList(list2);
 
-        Node mergeLst = mergeList(list1, list2);
+        LinkedList mergeLst = mergeList(list1, list2);
         printList(mergeLst);
     }
 
-    private static Node mergeList(Node list1, Node list2) {
-        Node current = new Node(-1);
-        Node result = current;
+    private static LinkedList mergeList(LinkedList list1, LinkedList list2) {
+        LinkedList current = new LinkedList(-1);
+        LinkedList result = current;
         if(list1 == null){
             return list2;
         }
@@ -31,23 +31,23 @@ public class MergeList {
         }
 
         while(list1 !=null && list2 != null){
-            if(list1.data <= list2.data){
-                current.nextNode = list1;
-                current = current.nextNode;
-                list1 = list1.nextNode;
+            if(list1.value <= list2.value){
+                current.next = list1;
+                current = current.next;
+                list1 = list1.next;
             }else{
-                current.nextNode = list2;
-                current = current.nextNode;
-                list2 = list2.nextNode;
+                current.next = list2;
+                current = current.next;
+                list2 = list2.next;
             }
         }
 
         if(list1 !=null){
-            current.nextNode = list1;
+            current.next = list1;
         }else if(list2 != null){
-            current.nextNode = list2;
+            current.next = list2;
         }
 
-        return result.nextNode;
+        return result.next;
     }
 }
