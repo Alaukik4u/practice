@@ -17,11 +17,7 @@ public class NGEL {
         Stack<Integer> stack = new Stack<>();
 
         for(int i=0; i<arr.length; i++){
-            if(stack.isEmpty()){
-                list.add(-1);
-            }else if(!stack.isEmpty() && arr[i]<stack.peek()){
-                list.add(stack.peek());
-            }else if(!stack.isEmpty() && arr[i]>=stack.peek()){
+
                 while(!stack.isEmpty() && arr[i]>=stack.peek()){
                     stack.pop();
                 }
@@ -31,12 +27,12 @@ public class NGEL {
                 }else{
                     list.add(stack.peek());
                 }
-            }
+
             stack.push(arr[i]);
         }
 
         for(int i=0; i<list.size(); i++){
-            System.out.println(list.get(i));
+            System.out.print(list.get(i)+ " ");
         }
     }
 }

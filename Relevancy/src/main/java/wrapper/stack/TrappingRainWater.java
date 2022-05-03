@@ -3,7 +3,7 @@ package wrapper.stack;
 public class TrappingRainWater {
 
     public static void main(String[] args) {
-        int[] arr = { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
+        int[] arr = { 1, 3, 1, 2 };
         int n = arr.length;
 
         System.out.print(maxWater(arr,n));
@@ -30,7 +30,8 @@ public class TrappingRainWater {
         printArray(rightArr);
 
         for(int i=0; i<arr.length; i++){
-            trappedWater = trappedWater+(Math.min(leftArr[i], rightArr[i])-arr[i]);
+            int value =Math.min(leftArr[i], rightArr[i])-arr[i];
+            trappedWater = trappedWater+value;
         }
 
         return trappedWater;

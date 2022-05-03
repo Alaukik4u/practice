@@ -7,13 +7,13 @@ public class PalindromeList {
     public static void main(String[] args) {
         head = new LinkedList(0);
         head.next = new LinkedList(1);
-        head.next.next = new LinkedList(2);
+        /*head.next.next = new LinkedList(2);
         head.next.next.next = new LinkedList(1);
         head.next.next.next.next = new LinkedList(3);
         head.next.next.next.next.next = new LinkedList(1);
         head.next.next.next.next.next.next = new LinkedList(2);
         head.next.next.next.next.next.next.next = new LinkedList(1);
-        head.next.next.next.next.next.next.next.next =  new LinkedList(0);
+        head.next.next.next.next.next.next.next.next =  new LinkedList(0);*/
 
         //printList(head);
         Boolean node = isPalindrome(head);
@@ -42,7 +42,7 @@ public class PalindromeList {
             second = second.next;
         }
 
-        return true;
+        return first != second ? false: true;
     }
 
     private static LinkedList reverseList(LinkedList head) {

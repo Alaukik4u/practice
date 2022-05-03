@@ -17,12 +17,7 @@ public class NGER {
         Stack<Integer> stack = new Stack<>();
 
         for(int i=arr.length-1; i>=0; i--){
-            if(stack.isEmpty()){
-                list.add(-1);
-            }else if(!stack.isEmpty() && arr[i]<stack.peek()){
-                list.add(stack.peek());
-            }else if(!stack.isEmpty() && arr[i]>=stack.peek()){
-                while(!stack.isEmpty() && arr[i]>=stack.peek()){
+            while(!stack.isEmpty() && arr[i]>=stack.peek()){
                     stack.pop();
                 }
 
@@ -31,7 +26,7 @@ public class NGER {
                 }else{
                     list.add(stack.peek());
                 }
-            }
+
             stack.push(arr[i]);
         }
 
