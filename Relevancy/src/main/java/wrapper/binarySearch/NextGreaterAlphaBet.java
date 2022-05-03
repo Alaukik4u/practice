@@ -4,8 +4,8 @@ public class NextGreaterAlphaBet {
 
 
     public static void main(String[] args) {
-        char letters[] = {'A', 'r', 'z'};
-        char K = 'p';
+        char letters[] = {'A', 'Q', 'q','r', 'w'};
+        char K = 'x';
         char result = nextGreatestAlphabet(letters,0, letters.length-1, K);
 
         // Function call
