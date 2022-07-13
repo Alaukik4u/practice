@@ -21,7 +21,7 @@ public class BinarySearchRotation {
            return mid;
         }else if (mid > low &&  arr1[mid] < arr1[mid-1]){
            return mid-1;
-       }else if(arr1[low] >= arr1[mid]){
+       }else if(arr1[low] > arr1[mid]){
             return binaryRotation(arr1,low,mid-1);
        }else{
            return binaryRotation(arr1,mid+1, high);

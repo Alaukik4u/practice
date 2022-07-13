@@ -1,7 +1,5 @@
 package wrapper.linkedList;
 
-import static wrapper.linkedList.Reversal.printList;
-
 public class FindStartOfLoop {
     static LinkedList head;
 

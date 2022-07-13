@@ -1,6 +1,6 @@
 package wrapper.linkedList;
 
-import static wrapper.linkedList.Reversal.printList;
+import static wrapper.linkedList.ReversalAndMiddle.printList;
 
 public class RightShiftByK {
     static LinkedList head;

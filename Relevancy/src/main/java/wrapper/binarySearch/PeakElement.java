@@ -3,7 +3,7 @@ package wrapper.binarySearch;
 public class PeakElement {
 
     public static void main(String[] args) {
-        int arr[] = { 1, 3, 20, 4, 1, 0 };
+        int arr[] = { 8, 9, 10, 11, 2, 3 };
         int n = arr.length;
 
         System.out.print("Index of a peak point is " + findPeak(arr, 0,n-1));

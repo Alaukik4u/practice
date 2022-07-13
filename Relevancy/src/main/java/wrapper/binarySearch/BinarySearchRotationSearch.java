@@ -3,9 +3,9 @@ package wrapper.binarySearch;
 public class BinarySearchRotationSearch {
     public static void main(String[] args) {
         // Let us search 3 in below array
-        int arr1[] = { 8, 9, 1, 1, 2, 3};
+        int arr1[] = { 3,1};
         int n = arr1.length;
-        int key = 3;
+        int key = 1;
         System.out.println("Index of the element is : " + binaryRotationSearch(arr1,0,n-1,key));
     }
 
