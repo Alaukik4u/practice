@@ -17,7 +17,7 @@ public class ReverseInGroupOfK {
         head.next.next.next.next.next.next.next = new LinkedList(8);
 
         printList(head);
-        LinkedList node = reverseinKgroup(head, 4);
+        LinkedList node = reverseinKgroup(head, 3);
         printList(node);
 
 
@@ -25,20 +25,23 @@ public class ReverseInGroupOfK {
 
     private static LinkedList reverseinKgroup(LinkedList head, int groupSize) {
         LinkedList pre = null, curr = head, next = null;
-        int count = 1;
-        while (count <= groupSize && curr != null) {
-            count++;
+        int count=1;
+
+        while(count <= groupSize && curr != null){
             next = curr.next;
             curr.next = pre;
             pre = curr;
             curr = next;
+            count++;
         }
 
-        if (next != null) {
+        if(next != null){
             head.next = reverseinKgroup(next, groupSize);
         }
 
         return pre;
     }
+
+
 
 }

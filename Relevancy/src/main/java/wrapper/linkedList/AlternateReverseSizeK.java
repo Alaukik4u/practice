@@ -26,6 +26,11 @@ public class AlternateReverseSizeK {
     private static LinkedList reverseinKgroup(LinkedList head, int groupSize) {
         LinkedList pre = null, curr = head, next = null;
         int count = 1;
+
+        if(head == null || head.next == null){
+            return head;
+        }
+
         while (count <= groupSize && curr != null) {
             count++;
             next = curr.next;
@@ -34,18 +39,8 @@ public class AlternateReverseSizeK {
             curr = next;
         }
 
-        if (head != null) {
-            head.next = curr;
-        }
-
-        count =1;
-        while (count < groupSize && curr != null) {
-            curr = curr.next;
-            count++;
-        }
-
-        if(curr != null){
-            curr.next = reverseinKgroup(curr.next, groupSize);
+        if(next != null){
+            head.next = reverseinKgroup(next, groupSize);
         }
 
         return pre;

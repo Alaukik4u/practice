@@ -11,7 +11,7 @@ public class RemoveKthFromEnd {
         head.next.next.next = new LinkedList(3);
 
         printList(head);
-        removeKthFromEnd(head,1);
+        removeKthFromEnd(head,4);
         printList(head);
     }
 

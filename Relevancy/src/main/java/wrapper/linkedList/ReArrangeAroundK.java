@@ -17,7 +17,7 @@ public class ReArrangeAroundK {
         head.next.next.next.next.next.next.next = new LinkedList(8);
 
         printList(head);
-        LinkedList node = reArrangeAroundK(head, 3);
+        LinkedList node = reArrangeAroundK(head, 5);
         printList(node);
 
 

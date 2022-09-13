@@ -5,41 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19db6423-c72c-458e-b338-fb4d5e090bed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/wrapper/binarySearch/MinimumNumberPageDistribution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/binarySearch/BinarySearchRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/binarySearch/BinarySearchRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/binarySearch/BinarySearchRotationSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/binarySearch/BinarySearchRotationSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/binarySearch/PeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/binarySearch/PeakElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/AlternateReverseSizeK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/AlternateReverseSizeK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/FindStartOfLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/FindStartOfLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/MergeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/MergeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/PalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/PalindromeList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/ReArrangeAroundK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/ReArrangeAroundK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/RemoveKthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/RemoveKthFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/Reversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/ReversalAndMiddle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/ReverseInGroupOfK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/ReverseInGroupOfK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/RightShiftByK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/RightShiftByK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/SumOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/SumOfLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/ZippedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/ZippedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/Arrays/RemoveDuplicateSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/Arrays/RemoveDuplicateSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/BinarySearchRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/BinarySearchRotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/BinarySearchRotationSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/BinarySearchRotationSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/NextGreaterAlphaBet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/NextGreaterAlphaBet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/PeakElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/PeakElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/dynamicProgramming/SubsetSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/dynamicProgramming/SubsetSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/dynamicProgramming/knapsackbounded.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/dynamicProgramming/knapsackbounded.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/linkedList/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/linkedList/Reversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/recursion/Generateparenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/recursion/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/recursion/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/stack/NGEL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/stack/NGEL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/stack/NGER.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/stack/NGER.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/stack/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/stack/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/stack/TrappingRainWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/stack/TrappingRainWater.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,35 +59,9 @@
       <recent name="wrapper.recursion.IO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromeList">
-    <configuration name="BinarySearchFandLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wrapper.binarySearch.BinarySearchFandLast" />
-      <module name="Relevancy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wrapper.binarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearchRotationSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wrapper.binarySearch.BinarySearchRotationSearch" />
-      <module name="Relevancy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wrapper.binarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wrapper.linkedList.PalindromeList" />
+  <component name="RunManager" selected="Application.SchedulingApporiginal">
+    <configuration name="AlternateReverseSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wrapper.linkedList.AlternateReverseSizeK" />
       <module name="Relevancy" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversalAndMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wrapper.linkedList.ReversalAndMiddle" />
+    <configuration name="FindStartOfLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wrapper.linkedList.FindStartOfLoop" />
       <module name="Relevancy" />
       <extension name="coverage">
         <pattern>
@@ -142,12 +86,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="firstnegativeSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wrapper.slidingwindow.firstnegativeSizeK" />
+    <configuration name="MergeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wrapper.linkedList.MergeList" />
       <module name="Relevancy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wrapper.slidingwindow.*" />
+          <option name="PATTERN" value="wrapper.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchedulingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.SchedulingApp" />
+      <module name="Relevancy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchedulingApporiginal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.SchedulingApporiginal" />
+      <module name="Relevancy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PalindromeList" />
-        <item itemvalue="Application.ReversalAndMiddle" />
-        <item itemvalue="Application.BinarySearchFandLast" />
-        <item itemvalue="Application.firstnegativeSizeK" />
-        <item itemvalue="Application.BinarySearchRotationSearch" />
+        <item itemvalue="Application.SchedulingApporiginal" />
+        <item itemvalue="Application.SchedulingApp" />
+        <item itemvalue="Application.MergeList" />
+        <item itemvalue="Application.AlternateReverseSizeK" />
+        <item itemvalue="Application.FindStartOfLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -627,37 +597,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/wrapper/linkedList/PalindromeList.java</url>
-          <line>35</line>
+          <line>38</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/wrapper/linkedList/PalindromeList.java</url>
-          <line>39</line>
+          <line>42</line>
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/wrapper/linkedList/PalindromeList.java</url>
-          <line>52</line>
+          <line>55</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/wrapper/linkedList/PalindromeList.java</url>
-          <line>60</line>
+          <line>63</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/wrapper/linkedList/PalindromeList.java</url>
-          <line>62</line>
+          <line>65</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/wrapper/linkedList/PalindromeList.java</url>
-          <line>63</line>
+          <line>66</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/wrapper/linkedList/PalindromeList.java</url>
-          <line>66</line>
+          <line>69</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
