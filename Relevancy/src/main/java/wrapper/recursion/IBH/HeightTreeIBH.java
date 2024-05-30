@@ -20,7 +20,7 @@ public class HeightTreeIBH {
             return 0;
 
         //hypothesis
-        int left = heightOftree(root.left);
+        int left = heightOftree(root.left); 
         int right = heightOftree(root.right);
 
         //induction
