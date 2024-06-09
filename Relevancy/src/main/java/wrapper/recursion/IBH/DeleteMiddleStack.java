@@ -12,10 +12,18 @@ public class DeleteMiddleStack {
 
         int k =  stack.size()/2 + 1;
         printArray(stack.stream().collect(Collectors.toList()));
-        deleteMiddleStack(stack, k);
+        deleteStack(stack, k);
         printArray(stack.stream().collect(Collectors.toList()));
 
     }
+
+    private static void deleteStack(Stack<Integer> stack, int k) {
+        if(stack.size() == 0)
+            return;
+
+        deleteMiddleStack(stack, k);
+    }
+
 
     private static void deleteMiddleStack(Stack<Integer> stack, int k) {
         if(k==1){
