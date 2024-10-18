@@ -48,7 +48,7 @@ public class FindStartOfLoop {
             fast = fast.next;
         }
 
-        System.out.println("loop leght is "+ length);
+        System.out.println("loop length is "+ length);
 
         //finding the start of the loop
          slow =head;

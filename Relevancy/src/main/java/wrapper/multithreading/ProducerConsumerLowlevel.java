@@ -1,23 +1,36 @@
 package wrapper.multithreading;
 
+import lombok.Synchronized;
+
+import java.util.LinkedList;
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
-public class ProducerConsumerBlockigQueue {
-    static BlockingQueue<Integer> blockingQueue = new ArrayBlockingQueue<Integer>(10);
+public class ProducerConsumerLowlevel {
+    static LinkedList<Integer> list = new LinkedList<>();
+    static Object lock = new Object();
+    static final Integer LIMIT =10;
 
     public static void producer(){
         Random random =  new Random();
 
         while(true){
-            int value = random.nextInt(100);
-            System.out.println("putting value" + value );
-            try {
-                blockingQueue.put(value);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+            synchronized (lock){
+                while(list.size() == LIMIT){
+                    try {
+                        lock.wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+                int value = random.nextInt(100);
+                System.out.println("putting value" + value );
+
+                list.add(value);
+                lock.notify();
             }
+
         }
     }
 
@@ -26,11 +39,21 @@ public class ProducerConsumerBlockigQueue {
 
 
         while(true){
-            Thread.sleep(100);
-            if(random.nextInt(10) == 0){
-                System.out.println( "taken element value ==> "+blockingQueue.take());
-                System.out.println( "blocking queue size ==> "+blockingQueue.size());
+            synchronized (lock){
+                while(list.size() == 0){
+                    try {
+                        lock.wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+
+                System.out.print("list size is " +list.size());
+                System.out.println(" value pulled is "+ list.removeFirst());
+                lock.notify();
             }
+
+            Thread.sleep(1000);
         }
     }
 

@@ -3,13 +3,62 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="19db6423-c72c-458e-b338-fb4d5e090bed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/wrapper/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/AlternateReverseSizeK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/AlternateReverseSizeK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/ReArrangeAroundK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/ReArrangeAroundK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/RemoveKthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/RemoveKthFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/ReverseInGroupOfK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/ReverseInGroupOfK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/Archive/MinimumNumberOfStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/Archive/MinimumNumberOfStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/Archive/Peak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/Archive/Peak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/Archive/RottenFruits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/Archive/RottenFruits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/Archive/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/Archive/WordSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/Archive/WordSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/Archive/WordSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/Archive/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/SchedulingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/Archive/SchedulingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/SchedulingAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/Archive/SchedulingAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/SchedulingApporiginal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/Archive/SchedulingApporiginal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/Swagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/Archive/Swagger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/Tree/LCABT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/Tree/LCABT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/Tree/leafnodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/Tree/leafnodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/binarySearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/binarySearch/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/FindStartOfLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/FindStartOfLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/linkedList/LinkedListLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/multithreading/ExecutorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/multithreading/ExecutorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/multithreading/ProducerConsumerBlockigQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/multithreading/ProducerConsumerBlockigQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/multithreading/ProducerConsumerLowlevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/multithreading/ProducerConsumerLowlevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/stack/NSEL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/stack/NSEL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrapper/stack/NSER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wrapper/stack/NSER.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/Archive/MinimumNumberOfStation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/Archive/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/Archive/Peak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/Archive/RottenFruits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/Archive/WordSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/Archive/WordSearchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/Schedule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/SchedulingApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/SchedulingAppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/SchedulingApporiginal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interview/Swagger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/Tree/LCABT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/Tree/LCABT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/Tree/leafnodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/Tree/leafnodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wrapper/binarySearch/BinarySearch.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +108,13 @@
       <recent name="wrapper.recursion.IO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SchedulingApporiginal">
-    <configuration name="AlternateReverseSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wrapper.linkedList.AlternateReverseSizeK" />
+  <component name="RunManager" selected="Application.NSEL">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wrapper.binarySearch.BinarySearch" />
       <module name="Relevancy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wrapper.linkedList.*" />
+          <option name="PATTERN" value="wrapper.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindStartOfLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wrapper.linkedList.FindStartOfLoop" />
+    <configuration name="Equilibriumpoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wrapper.binarySearch.Equilibriumpoint" />
       <module name="Relevancy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wrapper.linkedList.*" />
+          <option name="PATTERN" value="wrapper.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wrapper.linkedList.MergeList" />
+    <configuration name="NGER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wrapper.stack.NGER" />
       <module name="Relevancy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wrapper.linkedList.*" />
+          <option name="PATTERN" value="wrapper.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchedulingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.SchedulingApp" />
+    <configuration name="NSEL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wrapper.stack.NSEL" />
       <module name="Relevancy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="wrapper.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchedulingApporiginal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.SchedulingApporiginal" />
+    <configuration name="NSER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wrapper.stack.NSER" />
       <module name="Relevancy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="wrapper.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,15 +176,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SchedulingApporiginal" />
-        <item itemvalue="Application.SchedulingApp" />
-        <item itemvalue="Application.MergeList" />
-        <item itemvalue="Application.AlternateReverseSizeK" />
-        <item itemvalue="Application.FindStartOfLoop" />
+        <item itemvalue="Application.NSEL" />
+        <item itemvalue="Application.NSER" />
+        <item itemvalue="Application.NGER" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.Equilibriumpoint" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -171,6 +220,28 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="207" key="GridCell.Tab.0.bottom" timestamp="1729192450817">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="207" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1729192450817" />
+    <state width="1238" height="207" key="GridCell.Tab.0.center" timestamp="1729192450815">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="207" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1729192450815" />
+    <state width="1238" height="207" key="GridCell.Tab.0.left" timestamp="1729192450814">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="207" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1729192450814" />
+    <state width="1238" height="207" key="GridCell.Tab.0.right" timestamp="1729192450816">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="207" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1729192450816" />
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1721927127963">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1721927127963" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -764,11 +835,11 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Relevancy$DFSGraphCycleUnDirected.ic" NAME="DFSGraphCycleUnDirected Coverage Results" MODIFIED="1633373197456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Graph.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/Relevancy$WordSearch.ic" NAME="WordSearch Coverage Results" MODIFIED="1638307442553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>interview.Archive.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Relevancy$DFSGraphCycleUnDirected.ic" NAME="DFSGraphCycleUnDirected Coverage Results" MODIFIED="1633373197456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Graph.*</FILTER>
     </SUITE>
   </component>
 </project>

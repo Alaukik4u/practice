@@ -17,26 +17,22 @@ public class NSER {
         Stack<Integer> stack = new Stack<>();
 
         for(int i=arr.length-1; i>=0; i--){
+            while(!stack.isEmpty() && arr[i]<=stack.peek()){
+                stack.pop();
+            }
             if(stack.isEmpty()){
                 list.add(-1);
-            }else if(!stack.isEmpty() && arr[i]>stack.peek()){
+            }else{
                 list.add(stack.peek());
-            }else if(!stack.isEmpty() && arr[i]<=stack.peek()){
-                while(!stack.isEmpty() && arr[i]<=stack.peek()){
-                    stack.pop();
-                }
-
-                if(stack.isEmpty()){
-                    list.add(-1);
-                }else{
-                    list.add(stack.peek());
-                }
             }
             stack.push(arr[i]);
         }
 
         for(int i=list.size()-1; i>=0; i--){
-            System.out.println(list.get(i));
+            System.out.print(list.get(i) + " ");
         }
     }
+
+/*    */
 }
+

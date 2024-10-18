@@ -1,6 +1,6 @@
 package wrapper.linkedList;
 
-public class LRUCache {
+public class LinkedListLoop {
     static LinkedList head;
 
 

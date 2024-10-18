@@ -12,6 +12,7 @@ public class LCABT {
         tree.root.right = new Node(3);
         tree.root.left.left = new Node(4);
         tree.root.left.right = new Node(5);
+        tree.root.left.right.right = new Node(8);
         tree.root.right.left = new Node(6);
         tree.root.right.right = new Node(7);
 
@@ -21,9 +22,9 @@ public class LCABT {
         else
             System.out.println("Keys are not present");
 
-        Node lca1 = tree.findLCAUtils(tree.root,4, 10);
+        Node lca1 = tree.findLCAUtils(tree.root,4, 8);
         if (lca1 != null)
-            System.out.println("LCA(4, 10) = " + lca1.key);
+            System.out.println("LCA(4, 8) = " + lca1.key);
         else
             System.out.println("Keys are not present");
     }

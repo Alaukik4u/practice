@@ -1,4 +1,4 @@
-package interview.Archive;
+package impl.Archive;
 
 public class Peak {
     public static void main(String[] args) {

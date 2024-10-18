@@ -8,7 +8,7 @@ public class leafnodes {
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
         tree.root.left.left = new Node(4);
-        tree.root.left.right = new Node(5);
+        tree.root.right.right = new Node(5);
 
         /* get leaf count of the above tree */
         System.out.println("The leaf count of binary tree is : "
