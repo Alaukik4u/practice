@@ -14,14 +14,27 @@ public class ConnectRopes {
         for (int i : arr){
             priorityQueue.add(i);
 
-            if(priorityQueue.size() >=2){
+            if(priorityQueue.size() >2){
                 int first = priorityQueue.poll();
+                System.out.print( first + " selected");
+                System.out.println();
                 int second = priorityQueue.poll();
-
+                System.out.print( second + " selected");
+                System.out.println();
                 cost = cost + first+ second;
+                System.out.println(cost +" till now");
                 priorityQueue.add(first+second);
             }
         }
+
+        int first = priorityQueue.poll();
+        System.out.print( first + " selected");
+        System.out.println();
+        int second = priorityQueue.poll();
+        System.out.print( second + " selected");
+        System.out.println();
+        cost = cost + first+ second;
+        System.out.println(cost +" till now");
 
         System.out.println("minimum cost for ropes ->" + cost);
     }
