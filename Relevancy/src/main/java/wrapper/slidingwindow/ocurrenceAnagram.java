@@ -6,7 +6,7 @@ public class ocurrenceAnagram {
 
     public static void main(String[] args) {
         String text = "mama";
-        String word = "mam";
+        String word = "ma";
         System.out.print(countAnagrams(text, word));
     }
 

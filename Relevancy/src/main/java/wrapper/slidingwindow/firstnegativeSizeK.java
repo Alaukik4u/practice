@@ -35,7 +35,7 @@ public class firstnegativeSizeK {
                     System.out.print(0+" ");
                 }
 
-                if(arr[i] < 0){
+                if(arr[i] < 0 && list.size()>0){
                     list.remove(0);
                 }
                 i++;

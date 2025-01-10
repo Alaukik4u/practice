@@ -6,7 +6,7 @@ public class FindKthSmallest {
     public static void main(String[] args) {
         int arr[] = {2, 3,4,1,12};
         printArray(arr);
-        printKthSmallestArray(arr, 3);
+        printKthSmallestArray(arr, 4);
 
     }
 
@@ -19,9 +19,8 @@ public class FindKthSmallest {
             }
         }
 
-        while(kmaxElement.size() >0){
-            System.out.print( kmaxElement.poll() + " ");
-        }
+
+            System.out.print( kmaxElement.poll() + "  is kth smallest ");
     }
 
     private static void printArray(int[] arr) {
